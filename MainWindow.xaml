@@ -1,0 +1,18 @@
+<Window x:Class="Here_We_Go.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Here_We_Go"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Image Height="200" Width="200" Source="https://image.slideserve.com/201600/csi-1306-computing-concepts-for-business-n.jpg"></Image>
+
+        <Label x:Name="lblOutput"
+               Content="Intro to business-related programs/algorithms designed to solve business-related problems.
+Course Components: Lecture and Laboratory. Number of Students: 42 586."
+  />
+
+    </StackPanel>
+</Window>
